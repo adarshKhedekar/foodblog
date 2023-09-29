@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200&display=swap');
+
+.card-items{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border: 2px solid #93A2D361;
+    width: 26.4vw;
+    height: auto;
+    padding: 20px;
+    gap: 3vh;
+    border-radius: 20.94px;
+}
+.card-items .image-container{
+    max-width: 100%;
+    width: 22.63vw;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.card-items .image-container img{
+    width: 100%;
+}
+.card-items .text-container{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    gap: 2.70vh;
+}
+.card-items .text-container .heading{
+    font-size: 1.45vw;
+    color: #0E2368;
+    font-weight: bolder;
+}
+.card-items .text-container .sub-heading{
+    color: #444957;
+    font-size: 1.04vw;
+}
+.card-items .text-container button{
+    max-width: 100%;
+    width: 131px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid #424961;
+    background-color: transparent;
+    padding: 3px 26px;
+    font-size: 16.44px;
+    cursor: pointer;
+}
+@media screen and (max-width: 780px){
+   .card-items{
+    width :271px !important;
+   }
+   .card-items .image-container{
+    width: 204px;
+    height: 166px;
+   }
+   .card-items .text-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   .card-items .text-container .heading{
+    font-size: 16px !important;
+   }
+   .card-items .text-container .sub-heading{
+    font-size: 12px !important;
+   }
+}
